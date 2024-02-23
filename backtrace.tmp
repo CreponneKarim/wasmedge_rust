@@ -51,4 +51,62 @@ warning: `wasmedge_rust` (bin "wasmedge_rust") generated 7 warnings (run `cargo 
      Running `target/debug/wasmedge_rust`
 thread 'main' panicked at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/scoped-tls-1.0.1/src/lib.rs:168:9:
 cannot access a scoped thread local variable without calling `set` first
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+stack backtrace:
+   0: std::panicking::begin_panic
+             at /rustc/07dca489ac2d933c78d3c5158e3f43beefeb02ce/library/std/src/panicking.rs:686:12
+   1: scoped_tls::ScopedKey<T>::with
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/scoped-tls-1.0.1/src/lib.rs:168:9
+   2: wasmedge_sys::async::fiber::AsyncCx::new
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sys-0.17.5/src/async/fiber.rs:304:9
+   3: wasmedge_sys::async::function::wrap_async_wasi_fn
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sys-0.17.5/src/async/function.rs:206:20
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: WasmEdge_ExecutorInvoke
+  12: wasmedge_sys::executor::Executor::call_func
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sys-0.17.5/src/executor.rs:343:19
+  13: wasmedge_sdk::executor::Executor::run_func
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sdk-0.13.2/src/executor.rs:58:9
+  14: wasmedge_sdk::externals::function::Func::run
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sdk-0.13.2/src/externals/function.rs:243:9
+  15: wasmedge_sdk::vm::Vm::run_func
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge-sdk-0.13.2/src/vm.rs:586:31
+  16: wasmedge_rust::main::{{closure}}::{{closure}}::{{closure}}
+             at ./src/main.rs:45:17
+  17: <tokio::future::maybe_done::MaybeDone<Fut> as core::future::future::Future>::poll
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/future/maybe_done.rs:62:56
+  18: wasmedge_rust::main::{{closure}}::{{closure}}
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/macros/join.rs:126:24
+  19: <tokio::future::poll_fn::PollFn<F> as core::future::future::Future>::poll
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/future/poll_fn.rs:58:9
+  20: wasmedge_rust::main::{{closure}}
+             at ./src/main.rs:78:5
+  21: tokio::runtime::park::CachedParkThread::block_on::{{closure}}
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/park.rs:281:63
+  22: tokio::runtime::coop::with_budget
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/coop.rs:107:5
+  23: tokio::runtime::coop::budget
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/coop.rs:73:5
+  24: tokio::runtime::park::CachedParkThread::block_on
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/park.rs:281:31
+  25: tokio::runtime::context::blocking::BlockingRegionGuard::block_on
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/context/blocking.rs:66:9
+  26: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}}
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/scheduler/multi_thread/mod.rs:87:13
+  27: tokio::runtime::context::runtime::enter_runtime
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/context/runtime.rs:65:16
+  28: tokio::runtime::scheduler::multi_thread::MultiThread::block_on
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/scheduler/multi_thread/mod.rs:86:9
+  29: tokio::runtime::runtime::Runtime::block_on
+             at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-1.36.0/src/runtime/runtime.rs:350:45
+  30: wasmedge_rust::main
+             at ./src/main.rs:80:5
+  31: core::ops::function::FnOnce::call_once
+             at /rustc/07dca489ac2d933c78d3c5158e3f43beefeb02ce/library/core/src/ops/function.rs:250:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+terminate called without an active exception
