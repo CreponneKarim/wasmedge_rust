@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./wasm_app1/Cargo.toml",
+        "./wasm_app2/Cargo.toml",
+        "./Cargo.toml",
+    ]
+}

@@ -1,0 +1,11 @@
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app2/target/debug/deps/libcc-5682e7fff7e5274d.rmeta: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/mod.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/find_tools.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/command_helpers.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/tool.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app2/target/debug/deps/libcc-5682e7fff7e5274d.rlib: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/mod.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/find_tools.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/command_helpers.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/tool.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app2/target/debug/deps/cc-5682e7fff7e5274d.d: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/mod.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/find_tools.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/command_helpers.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/tool.rs
+
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/lib.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/mod.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/windows/find_tools.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/command_helpers.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.86/src/tool.rs:

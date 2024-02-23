@@ -1,0 +1,8 @@
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/debug/deps/libwasmedge_wasi_socket-95b54916f252b4fd.rmeta: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/poll.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/socket.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/wasi_poll.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/debug/deps/wasmedge_wasi_socket-95b54916f252b4fd.d: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/poll.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/socket.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/wasi_poll.rs
+
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/lib.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/poll.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/socket.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmedge_wasi_socket-0.5.3/src/wasi_poll.rs:

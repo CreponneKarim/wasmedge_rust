@@ -1,0 +1,10 @@
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/libtrackable-9a0ca7f3bbff31a7.rmeta: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/result.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/libtrackable-9a0ca7f3bbff31a7.rlib: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/result.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/trackable-9a0ca7f3bbff31a7.d: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/result.rs
+
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/lib.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/macros.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/error.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-0.2.24/src/result.rs:

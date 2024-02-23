@@ -1,0 +1,10 @@
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/libtrackable-00ea1aa58743ee6b.rmeta: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/result.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/libtrackable-00ea1aa58743ee6b.rlib: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/result.rs
+
+/home/creponnekarim/my_progs/rust/wasmedge_rust/wasm_app1/target/wasm32-wasi/release/deps/trackable-00ea1aa58743ee6b.d: /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/lib.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/macros.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/error.rs /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/result.rs
+
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/lib.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/macros.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/error.rs:
+/home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/trackable-1.3.0/src/result.rs:
