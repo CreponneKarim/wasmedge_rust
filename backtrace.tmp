@@ -1,0 +1,54 @@
+warning: unused imports: `future`, `sleep`, `time::Duration`
+ --> src/main.rs:1:28
+  |
+1 | use std::{fs::OpenOptions, future, sync::{Arc, Mutex}, thread::{self, sleep}, time::Duration};
+  |                            ^^^^^^                                     ^^^^^   ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `params`
+ --> src/main.rs:6:82
+  |
+6 |     config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, params, wasi::r#async::{AsyncState,  WasiContext},...
+  |                                                                                  ^^^^^^
+
+warning: unused variable: `async_state`
+  --> src/main.rs:33:13
+   |
+33 |         let async_state = AsyncState::new();
+   |             ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_async_state`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `print_redirect`
+  --> src/main.rs:43:13
+   |
+43 |         let print_redirect = Redirect::stdout(log).unwrap();
+   |             ^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_print_redirect`
+
+warning: unused variable: `async_state`
+  --> src/main.rs:55:13
+   |
+55 |         let async_state = AsyncState::new();
+   |             ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_async_state`
+
+warning: unused variable: `print_redirect`
+  --> src/main.rs:65:13
+   |
+65 |         let print_redirect = Redirect::stdout(log).unwrap();
+   |             ^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_print_redirect`
+
+warning: constant `WRITER_PATH` is never used
+  --> src/main.rs:13:11
+   |
+13 |     const WRITER_PATH: &str = "./wasm_app2/target/wasm32-wasi/release/wasm_app2.wasm";
+   |           ^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `wasmedge_rust` (bin "wasmedge_rust") generated 7 warnings (run `cargo fix --bin "wasmedge_rust"` to apply 6 suggestions)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.06s
+     Running `target/debug/wasmedge_rust`
+thread 'main' panicked at /home/creponnekarim/.cargo/registry/src/index.crates.io-6f17d22bba15001f/scoped-tls-1.0.1/src/lib.rs:168:9:
+cannot access a scoped thread local variable without calling `set` first
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
